@@ -1,0 +1,12 @@
+instance of class order_tickets: "ticket num 115"
+
+attribute 1: table_num = 7
+attribute 2: num_items = 3
+attribute 3: has_allergen = false
+attribute 4: ticket_price = 24.55
+attribute 5: ticket_line_pos = 17
+
+method 1: change_table changes table_num to 2
+method 2: add_item changes num_items to 4 and ticket_price to 30.35
+method 3: notify_allergy changes has_allergen to true
+method 4: next_ticket: changed ticket_line_pos to 16

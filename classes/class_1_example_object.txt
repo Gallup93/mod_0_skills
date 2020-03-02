@@ -1,0 +1,11 @@
+instance of class servers: Michael
+
+attribute 1: cur_section = [1, 3, 4, 5, 7]
+attribute 2: num_cur_customers = 5
+attribute 3: schedule = ["4-10", "4-10", "8-4", nil, nil, nil, nil]
+attribute 4: cash_on_hand = 177.90
+
+method 1: get_sat changes cur_section to [1,3,4,5,6,7]
+method 2: get_cut changes cur_section and num_cur_customers all to 'nil'
+method 3: request_vacation is denied so schedule is left unchanged
+method 4: receive_tip changes cash_on_hand to 190.80
