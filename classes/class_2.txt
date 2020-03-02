@@ -1,0 +1,12 @@
+class order_tickets
+
+attribute 1: table_num (int)
+attribute 2: num_items (int)
+attribute 3: has_allergen(bool)
+attribute 4: ticket_price (float)
+attribute 5: ticket_line_pos
+
+method 1: change_table (changes table_num)
+method 2: add_item (changes num_items and ticket_price)
+method 3: notify_allergy (changes has_allergen)
+method 4: next_ticket (changes ticket_line_pos)
