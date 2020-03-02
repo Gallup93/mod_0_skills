@@ -1,0 +1,11 @@
+class: servers
+
+attribute 1: cur_section (array)
+attribute 2: num_cur_customers (int)
+attribute 3: schedule (array)
+attribute 4: cash_on_hand (float)
+
+method 1: get_sat (adds customer(s) thus changing num_cur_customers)
+method 2: get_cut (server ends shift, changes cur_section)
+method 3: request_vacation (changes schedule)
+method 4: receive_tip (changes cash_on_hand)
