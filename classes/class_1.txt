@@ -1,4 +1,4 @@
-class: servers
+class: Servers
 
 attribute 1: cur_section (array)
 attribute 2: num_cur_customers (int)
