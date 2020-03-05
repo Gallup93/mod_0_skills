@@ -1,4 +1,4 @@
-class order_tickets
+class OrderTickets
 
 attribute 1: table_num (int)
 attribute 2: num_items (int)
